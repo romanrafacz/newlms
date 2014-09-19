@@ -6,4 +6,4 @@ locations_blueprint = Blueprint(
 
 @locations_blueprint.route('/locations')
 def locations():
-    return "locations page"
+    return render_template('locations.html')

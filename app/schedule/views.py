@@ -7,4 +7,4 @@ schedule_blueprint = Blueprint(
 
 @schedule_blueprint.route('/schedule')
 def schedule():
-    return render_template("index.html")
+    return render_template("schedule.html")

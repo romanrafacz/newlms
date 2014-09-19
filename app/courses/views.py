@@ -7,4 +7,4 @@ courses_blueprint = Blueprint(
 
 @courses_blueprint.route('/courses')
 def courses():
-    return render_template('index.html')
+    return render_template('courses.html')

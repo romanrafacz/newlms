@@ -7,5 +7,5 @@ enrollments_blueprint = Blueprint(
 
 @enrollments_blueprint.route('/enrollments')
 def enrollments():
-    return render_template('index.html')
+    return render_template('enrollments.html')
 
