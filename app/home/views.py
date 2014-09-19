@@ -5,6 +5,6 @@ home_blueprint = Blueprint(
         template_folder='templates'
         )
 
-@home_blueprint.route('/welcome')
-def welcome():
-    return "Welcome"
+@home_blueprint.route('/')
+def index():
+    return render_template('index.html') 

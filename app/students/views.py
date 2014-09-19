@@ -7,5 +7,5 @@ students_blueprint = Blueprint(
 
 @students_blueprint.route('/students')
 def students():
-    return "students page"
+    return render_template("index.html")
 

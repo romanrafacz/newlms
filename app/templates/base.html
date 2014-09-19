@@ -1,0 +1,41 @@
+{# app/templates/base.html #}
+
+
+<!DOCTYPE html>
+    
+    <head>
+        <script src="{{url_for('static', filename='jquery-2.1.1.min.js') }}" ></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="{{url_for('static', filename='img/favicon.ico')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}" media="screen">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/addon.css')}}" media="screen">
+
+
+        <title>LMS</title>
+
+        {% block head %}
+        {% endblock %}
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default" role="navigation">
+            <div class="navbar-inner">
+                <div class="container">
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+
+    {% block content %}
+
+    {% endblock %}
+
+</html
