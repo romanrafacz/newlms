@@ -1,5 +1,6 @@
 {# app/templates/base.html #}
 
+{% from 'nav_macros.html' import nav_link with context %}
 
 <!DOCTYPE html>
     
@@ -23,9 +24,15 @@
         <div class="navbar navbar-default" role="navigation">
             <div class="navbar-inner">
                 <div class="container">
+                    <ul class="nav">
+                        {{ nav_link('schedule.schedule', 'schedule') }}
+                        {{ nav_link('courses.courses', 'courses') }}
+                        {{ nav_link('students.students', 'students') }}
+                        {{ nav_link('locations.locations', 'locations') }}
 
 
 
+                    </ul>
                 </div>
             </div>
         </div>
@@ -38,4 +45,4 @@
 
     {% endblock %}
 
-</html
+</html>
