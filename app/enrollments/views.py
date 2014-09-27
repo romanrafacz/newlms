@@ -1,3 +1,6 @@
+from app import db
+from app.enrollments.models import Enrollments
+
 from flask import render_template, Blueprint
 
 enrollments_blueprint = Blueprint(
@@ -7,5 +10,6 @@ enrollments_blueprint = Blueprint(
 
 @enrollments_blueprint.route('/enrollments')
 def enrollments():
-    return render_template('enrollments.html')
+    courseschedule = db.session.query(Enrollments).all()
+    return render_template('index.html', courseschedule=courseschedule)
 

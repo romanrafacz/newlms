@@ -2,6 +2,22 @@
 
 {% block content %}
 
-This the location index page
+    <table name="locationstable">
+        <tr>
+            <th>Location</th>
+            <th>city</th>
+            <th>state</th>
+            <th>phone</th>
+        </tr>
+
+            {% for facility in locations %}
+        <tr>
+            <td>{{facility}}</td>
+            <td>{{facility.city}}</td>
+            <td>{{facility.state}}</td>
+            <td>{{facility.phone}}</td>
+        </tr>
+            {% endfor %}
+    </table>
 
 {% endblock %}
