@@ -1,7 +1,28 @@
 {% extends 'base.html' %}
 
-{% block content %}
+    {% block content %}
 
-This the enrollments index page
+        <table class="classroster">
 
-{% endblock %}
+            <tr>
+                <th>coursecode</th>
+                <th>startdate</th>
+                <th>enddate</th>
+                <th>locations</th>
+                <th>trainingid</th>
+            </tr>
+            {% for course in courses %}
+            <tr>
+                <td><a href="{{url_for('enrollments.enrollmentsbycourse', enrollmentid=course.id, coursecode=course.coursecode)}}">{{course.coursecode}}</a></td>
+                <td>{{course.startdate}}</td>
+                <td>{{course.enddate}}</td>
+                <td>{{course.location}}</td>
+                <td>{{course.trainingid}}</td>
+            </tr>
+            {% endfor %}
+
+        </table>
+
+
+
+    {% endblock %}

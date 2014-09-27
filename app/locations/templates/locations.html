@@ -12,7 +12,7 @@
 
             {% for facility in locations %}
         <tr>
-            <td>{{facility}}</td>
+            <td><a href="{{url_for('locations.locationinfo', locationid=facility.id)}}">{{facility}}</td></a>
             <td>{{facility.city}}</td>
             <td>{{facility.state}}</td>
             <td>{{facility.phone}}</td>

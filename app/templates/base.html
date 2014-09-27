@@ -20,6 +20,7 @@
     </head>
 
     <body>
+        <div class="container">
 
         <div class="navbar navbar-default" role="navigation">
             <div class="navbar-inner">
@@ -27,22 +28,24 @@
                     <ul class="nav">
 
                         {{ nav_link('schedule.schedule', 'schedule') }}
+                        {{ nav_link('enrollments.index', 'enrollments') }}
                         {{ nav_link('courses.courses', 'courses') }}
                         {{ nav_link('students.students', 'students') }}
                         {{ nav_link('locations.locations', 'locations') }}
-                        {{ nav_link('enrollments.enrollments', 'enrollments') }}
 
                     </ul>
                 </div>
             </div>
         </div>
 
+        </div>
+
+        <div class="container">
+            {% block content %}
+
+            {% endblock %}
+        </div>
 
     </body>
-
-
-    {% block content %}
-
-    {% endblock %}
 
 </html>
