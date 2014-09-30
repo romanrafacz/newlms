@@ -1,5 +1,5 @@
 from app import db
-from app.enrollments.models import Enrollments
+from app.models import Enrollments
 from app.enrollments.forms import EnrollmentForm
 
 from flask import render_template, Blueprint
@@ -11,7 +11,7 @@ enrollments_blueprint = Blueprint(
 
 @enrollments_blueprint.route('/enrollments')
 def index():
-    schedule = db.session.query(Enrollments).group_by(Enrollments.coursecode).order_by(Enrollments.startdate, Enrollments.coursecode).all()
+    schedule = db.session.query(Enrollments).order_by(Enrollments.startdate, Enrollments.coursecode).all()
     return render_template('enrollments.html', courses=schedule)
 
 @enrollments_blueprint.route('/enrollmentsbycourse/<int:enrollmentid>/<coursecode>')

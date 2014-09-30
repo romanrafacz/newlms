@@ -1,6 +1,6 @@
 from flask import render_template, Blueprint
 
-from app.locations.models import Location
+from app.models import Location
 
 from app import db
 
