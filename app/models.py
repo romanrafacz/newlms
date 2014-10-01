@@ -8,11 +8,10 @@ class Location(db.Model):
     __tablename__ = "location"
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    facilityname = db.Column(db.String(120))
-    facilityname2 = db.Column(db.String(150))
+    location = db.Column(db.String(120))
+    facilityname = db.Column(db.String(150))
     address = db.Column(db.String(120))
-    address2 = db.Column(db.String(120))
-    city_state = db.Column(db.String(120))
+    suite = db.Column(db.String(120))
     city = db.Column(db.String(120))
     state = db.Column(db.String(2))
     zipcode = db.Column(db.String(10))

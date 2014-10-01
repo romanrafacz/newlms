@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div>
+        {{course.coursecode}}</br>
+        {{course.startdate}}</br>
+        {{course.enddate}}</br>
+        {{course.trainingid}}</br>
+        {{course.location}}</br>
+    </div>
+
+    <div>
+        <table class="classroster">
+            <tr>
+                <th>studentname</th>
+                <th>email</th>
+            </tr>
+            {% for student in roster %}
+            <tr>
+                <td>{{student.studentname}}</td>
+                <td>{{student.studentemail}}</td>
+            </tr>
+            {% endfor%}
+        </table>
+    </div>
+
+{% endblock %}

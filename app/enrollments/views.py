@@ -18,7 +18,7 @@ def index():
 def enrollmentsbycourse(enrollmentid, coursecode):
     enrollment = db.session.query(Enrollments).filter_by(id=enrollmentid).first()
     classroster = db.session.query(Enrollments.studentname, Enrollments.studentemail).filter_by(coursecode=coursecode).all()
-    return render_template("enrollmentsbycourse.html", course=enrollment, roster=classroster)
+    return render_template("searchenrollments.html", course=enrollment, roster=classroster)
 
 @enrollments_blueprint.route('/addenrollment', methods=['POST', 'GET'])
 def addenrollment():

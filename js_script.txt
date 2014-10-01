@@ -1,0 +1,25 @@
+
+        $('a[href="#locationForm"]').click( function() {
+                $('#table').fadeTo( 'slow', .2);
+                $('#locationForm').fadeIn( 'slow' , function() {
+                    $('#facilityName').focus();
+                })
+            return false;
+        } );
+
+        //When cance is closed, close the form
+        $( '#cancel' ).click( function() {
+                $('#locationForm').fadeOut();
+                $('#table').fadeTo('slow', 1);
+        } );
+
+        //When the escape key is pressed, close the form
+        $('#locationForm').keydown( function( event ) {
+                if ( event.which == 27 ) {
+                   $('#locationForm').fadeOut();
+                   $('#table').fateTo( 'slow', 1);
+            }
+        } );
+    }
+
+</script>

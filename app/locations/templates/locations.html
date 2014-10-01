@@ -1,9 +1,66 @@
 {% extends 'base.html' %}
 
+{% block head %}
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+<script>
+   //Init the form once the document is ready
+   $( init );
+
+    //Initialize the form
+    function init() {
+$('#locationForm').hide();
+$("#cancel").click(function() {
+    $("#locationForm").hide('slow');
+    $(".table").show();
+    });
+
+$("a").click(function() {
+    $("#locationForm").show('slow');
+    $('.table').hide();
+});
+    }
+</script>
+{% endblock %}
+
 {% block content %}
 
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+<ul class="flash">
+    {% for message in messages %}
+    <li>{{message}}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endwith %}
+
+<div class="localform">
+    <a href="#locationForm">Add location</a>
+<form id="locationForm" action="{{url_for('locations.addlocation')}}" method="post">
+    {{form.hidden_tag()}}
+    {{form.csrf_hidden}}
+    {% for input in form if input.widget.input_type != 'hidden' %}
+    <label>{{input.label}}</label>{{input}}
+    {% endfor %}
+    <div id="formButtons">
+        <input type="submit" id="addLocation" name="addLocation" value="Add" />
+        <input type="button" id="cancel" name="cancel" value="cancel" />
+    </div>
+</form>
+</div>
+
+
+<div id="addingLocation" class="statusMessage"><p>Adding location. Please wait...</p></div>
+<div id="successe" class="statusMessage"><p>Thanks for adding! We'll get back to you shortly.</p></div>
+<div id="failure" class="statusMessage"><p>There was a problem sending your message. Please try again.</p></div>
+<div id="incomplete" class="statusMessage"><p>Please complete all the fields in the form before sending.</p></div>
+
+
+<div class="table">
     <table name="locationstable">
         <tr>
+            <th>Edit</th>
             <th>Location</th>
             <th>city</th>
             <th>state</th>
@@ -12,12 +69,15 @@
 
             {% for facility in locations %}
         <tr>
-            <td><a href="{{url_for('locations.locationinfo', locationid=facility.id)}}">{{facility}}</td></a>
+            <td><form action="" method="post"><a href="{{url_for('locations.editlocation', locationid=facility.id)}}">
+                        edit</a></form></td>
+            <td><a href="{{url_for('locations.searchbylocation', locationid=facility.id)}}">{{facility}}</td></a>
             <td>{{facility.city}}</td>
             <td>{{facility.state}}</td>
             <td>{{facility.phone}}</td>
         </tr>
             {% endfor %}
     </table>
+</div>
 
 {% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="localform">
+    <a href="#locationForm">Add location</a>
+<form id="locationForm" action="{{url_for('locations.addlocation')}}" method="post">
+    {{form.csrf_hidden}}
+            {{form.facilityname.label}}{{form.facilityname}}
+            {{form.facilityname2.label}}{{form.facilityname2}}
+            {{form.address.label}}{{form.address}}
+            {{form.address2.label}}{{form.address2}}
+            {{form.city.label}}{{form.city}}
+            {{form.state.label}}{{form.state}}
+            {{form.zipcode.label}}{{form.zipcode}}
+            {{form.phone.label}}{{form.phone}}
+    <div id="formButtons">
+        <input type="submit" id="addLocation" name="addLocation" value="Add" />
+        <input type="button" id="cancel" name="cancel" value="cancel" />
+    </div>
+</form>
+</div>
+
+
+{% endblock %}
