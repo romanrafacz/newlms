@@ -25,3 +25,6 @@ def addenrollment():
     enrollmentform = EnrollmentForm()
     return render_template("addenrollment.html", enrollmentform=enrollmentform)
 
+@enrollments_blueprint.route('/welcomeemil')
+def welcomeemail():
+    pass

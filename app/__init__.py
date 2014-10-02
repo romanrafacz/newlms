@@ -1,5 +1,6 @@
 from flask import Flask
 from flask.ext.sqlalchemy import SQLAlchemy
+from flask_mail import Mail
 
 app = Flask(__name__)
 
@@ -28,3 +29,7 @@ app.register_blueprint(locations_blueprint)
 app.register_blueprint(schedule_blueprint)
 app.register_blueprint(students_blueprint)
 app.register_blueprint(enrollments_blueprint)
+
+####################
+##Setup Mail object
+mail = Mail(app)
