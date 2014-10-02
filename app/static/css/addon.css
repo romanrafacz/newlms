@@ -157,7 +157,7 @@ input:valid, textarea:valid {
 
 /* The Add and cancel buttons */
 
-input[type="submit"], input[type="cancel"] {
+input[type="submit"], input[type="button"] {
     float: right;
     margin: 2em 1em 0 1em;
     width: 10em;
