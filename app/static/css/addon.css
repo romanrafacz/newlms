@@ -198,7 +198,8 @@ input[type="submit"]:active, input[type="button"]:active {
     box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset:
 }
 
-input[type="button"] {
+input[type="button"], 
+input[type="submit"] {
     background: #f33;
 }
 

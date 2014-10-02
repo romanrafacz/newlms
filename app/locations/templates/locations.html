@@ -1,54 +1,70 @@
 {% extends 'base.html' %}
 
-{% block head %}
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    {% block head %}
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
-<script>
-   //Init the form once the document is ready
-   $( init );
+        <script>
+        //Init the form once the document is ready
+        $( init );
 
-    //Initialize the form
-    function init() {
-$('#locationForm').hide();
-$("#cancel").click(function() {
-    $("#locationForm").hide('slow');
-    $(".table").show();
-    });
+        //Initialize the form
+        function init() {
+            $('#locationForm').hide();
+            $("#cancel").click(function() {
+            $("#locationForm").hide('slow');
+            $(".table").show();
+                });
 
-$("a").click(function() {
-    $("#locationForm").show('slow');
-    $('.table').hide();
-});
-    }
-</script>
-{% endblock %}
+            $("a").click(function() {
+            $("#locationForm").show('slow');
+            $('.table').hide();
+                });
+        }
+
+        function confirmDelete(){
+            var x = confirm("Are you sure?");
+            if (x)
+                return true;
+            else
+                return  false
+        }
+        </script>
+
+    {% endblock %}
+
+
+<!-- body content-->
+
 
 {% block content %}
 
-{% with messages = get_flashed_messages() %}
-{% if messages %}
-<ul class="flash">
-    {% for message in messages %}
-    <li>{{message}}</li>
-    {% endfor %}
-</ul>
-{% endif %}
-{% endwith %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flash">
+        {% for message in messages %}
+            <li>{{message}}</li>
+        {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
 
-<div class="localform">
-    <a href="#locationForm">Add location</a>
-<form id="locationForm" action="{{url_for('locations.addlocation')}}" method="post">
-    {{form.hidden_tag()}}
-    {{form.csrf_hidden}}
-    {% for input in form if input.widget.input_type != 'hidden' %}
-    <label>{{input.label}}</label>{{input}}
-    {% endfor %}
+    <div class="localform">
+        <a href="#locationForm">Add location</a>
+         <form id="locationForm" action="{{url_for('locations.addlocation')}}" method="post">
+            {{form.hidden_tag()}}
+            {{form.csrf_hidden}}
+            {% for input in form if input.widget.input_type != 'hidden' %}
+                <label>{{input.label}}</label>{{input}}
+            {% endfor %}
+
+
     <div id="formButtons">
-        <input type="submit" id="addLocation" name="addLocation" value="Add" />
+        <input type="submit" id="addButton" name="addButton" value="Add" />
         <input type="button" id="cancel" name="cancel" value="cancel" />
     </div>
-</form>
-</div>
+    
+     </form>
+     </div>
 
 
 <div id="addingLocation" class="statusMessage"><p>Adding location. Please wait...</p></div>
@@ -76,7 +92,8 @@ $("a").click(function() {
             <td>{{facility.city}}</td>
             <td>{{facility.state}}</td>
             <td>{{facility.phone}}</td>
-            <td><a href="{{url_for('locations.deletelocation', locationid=facility.id)}}">delete</td></a>
+            <td><a href="{{url_for('locations.deletelocation', locationid=facility.id)}}">
+                    <img src="http://png-4.findicons.com/files/icons/1580/devine_icons_part_2/128/trash_recyclebin_empty_closed.png" alt="delete" style="width:25px;height:25px" onclick="confirmDelete();"></a></td>
         </tr>
             {% endfor %}
     </table>

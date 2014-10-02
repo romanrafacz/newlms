@@ -27,10 +27,10 @@ def addlocation():
         db.session.add(Location(location=request.form['location'], facilityname=request.form['facilityname'], address=request.form['address'], suite=request.form['suite'], city=request.form['city'], state=request.form['state'], zipcode=request.form['zipcode'], phone=request.form['phone']))
         db.session.commit()
         flash('successful add')
-        return render_template('addlocation.html')
+        return redirect('addlocation.html')
     else:
         flash("please try again")
-        return render_template('locations.html')
+        return redirect('locations.html')
     
     message= "no dice, try again"
     return render_template('addlocation.html', message=message)
@@ -42,9 +42,16 @@ def editlocation():
     Form.populate_obj(request.POST, locaitondata)
     return render_template('editlocations.html', form=Form)
 
+def delete_location(locationid):
+    db.session.query(Location).filter(Location.id==locationid).delete()
+    db.session.commit()
+
 
 @locations_blueprint.route('/deletelocation/<int:locationid>', methods=['POST', 'GET'])
 def deletelocation(locationid):
-    db.session.query(Location).filter(Location.id==locationid).delete()
-    db.session.commit()
-    return redirect('locations')
+    if delete_location(locationid):
+        flash('success')
+        return redirect('locations')
+    else:
+        flash('no can do')
+        return redirect('locations')
