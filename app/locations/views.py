@@ -1,4 +1,4 @@
-from flask import render_template, Blueprint, request, url_for, flash
+from flask import render_template, Blueprint, request, url_for, flash, redirect
 
 from app.models import Location
 from app.locations.forms import LocationForm
@@ -24,7 +24,7 @@ def searchbylocation(locationid):
 def addlocation():
     message = ""
     if request.method == "POST":
-        db.session.add(Location(facilityname=request.form['facilityname'], facilityname2=request.form['facilityname2'], address=request.form['address'], address2=request.form['address2'], city=request.form['city'], state=request.form['state'], zipcode=request.form['zipcode'], phone=request.form['phone']))
+        db.session.add(Location(location=request.form['location'], facilityname=request.form['facilityname'], address=request.form['address'], suite=request.form['suite'], city=request.form['city'], state=request.form['state'], zipcode=request.form['zipcode'], phone=request.form['phone']))
         db.session.commit()
         flash('successful add')
         return render_template('addlocation.html')
@@ -38,6 +38,13 @@ def addlocation():
 @locations_blueprint.route('/editlocation', methods=['POST', 'GET'])
 def editlocation():
     Form = LocationForm()
-    locationdata = db.session.query(Location).filter(id==1).all()
-    Form.populate_obj(locationdata)
+    locationdata = Location.query.get(1)
+    Form.populate_obj(request.POST, locaitondata)
     return render_template('editlocations.html', form=Form)
+
+
+@locations_blueprint.route('/deletelocation/<int:locationid>', methods=['POST', 'GET'])
+def deletelocation(locationid):
+    db.session.query(Location).filter(Location.id==locationid).delete()
+    db.session.commit()
+    return redirect('locations')
