@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="contactForm">
+        <form class="contacForm">
+            {{form.hidden_tag()}}
+            {{form.csrf_hidden}}
+            <ul>
+                {% for input in form if input.widget.input_type != 'hidden' %}
+                <label>{{input.label}}</label>{{input}}</br>
+                {% endfor %}
+            </ul>
+            
+        <div id="formButtons">
+            <input type="submit" id="sendButton" name="sendbutton" value="Add" />
+            <input type="button" id="cancel" name="cancel" value="cancel" />
+        </div>
+
+
+        </form>
+    </div>
+
+
+{% endblock %}

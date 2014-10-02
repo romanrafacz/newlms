@@ -11,13 +11,13 @@
         function init() {
             $('#locationForm').hide();
             $("#cancel").click(function() {
-            $("#locationForm").hide('slow');
-            $(".table").show();
+            $("#locationForm").fadeOut('fast');
+            $(".table").fadeIn('fast');
                 });
 
             $("a").click(function() {
-            $("#locationForm").show('slow');
-            $('.table').hide();
+            $('.table').fadeOut('fast');
+            $("#locationForm").fadeIn('fast');
                 });
         }
 
