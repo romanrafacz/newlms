@@ -65,3 +65,32 @@ class Contact(db.Model):
     lastname = db.Column(db.String(50))
     email = db.Column(db.String(50))
     comments = db.Column(db.Text)
+
+class Schedule(db.Model):
+    __tablename__ = "schedule"
+
+    scheduleid = db.Column(db.Integer, primary_key=True)
+    locationid = db.Column(db.Integer, db.ForeignKey('location.id'))
+    coursecode = db.Column(db.String(6), db.ForeignKey('course.coursecode'))
+    startdate = db.Column(db.Date())
+    courseid = db.relationship('Courseid', backref="schedule")
+
+    def __unicode__(self):
+        return self.coursecode
+
+class Course(db.Model):
+    __tablename__ = "course"
+
+    courseid = db.Column(db.Integer, primary_key=True)
+    coursecode = db.Column(db.String(6))
+    coursename = db.Column(db.String(120))
+    price = db.Column(db.Integer)
+    duration = db.Column(db.Integer)
+    schedule = db.relationship("Schedule", lazy="joined", backref="course")
+
+    def __unicode__(self):
+        return self.coursecode
+
+
+
+

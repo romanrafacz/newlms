@@ -1,5 +1,5 @@
 from flask_wtf import Form
-from wtforms.fields import TextField, SubmitField, IntegerField, TextField, TextAreaField
+from wtforms.fields import SubmitField, IntegerField, TextField, TextAreaField
 from wtforms import validators
 
 strip_filter = lambda x: x.strip() if x else None

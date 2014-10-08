@@ -17,6 +17,7 @@ def locations():
     """
     Form = LocationForm()
     Form.state.choices = [(g.id, g.state) for g in Location.query.order_by('state')]
+    Form.location.data = "new horizons"
     ibmlocations = db.session.query(Location).all()
     return render_template('locations.html', locations=ibmlocations, form=Form)
 
@@ -46,18 +47,16 @@ def addlocation():
     message= "no dice, try again"
     return render_template('addlocation.html', message=message)
 
-@locations_blueprint.route('/editlocation/<int:locationid>', methods=['POST', 'GET'])
-def editlocation(locationid):
+@locations_blueprint.route('/editlocation', methods=['POST', 'GET'])
+def editlocation():
     """
     Edit Location
     """
-    class Form(LocationForm):
-        pass
 
-    Form.location = request.form['location']
     #location = Location.query.get(1)
-    form = Form()
-    form.state.choices = [(g.int, g.state) for g in Location.query.order_by('state')]
+    Form = LocationForm()
+    Form.state.choices = [(g.id, g.state) for g in Location.query.order_by('state')]
+    Form.location.data = "edit location"
     return render_template('editlocations.html', form=Form)
 
 def delete_location(locationid):
@@ -74,7 +73,7 @@ def deletelocation(locationid):
     Delete location
     """
     if delete_location(locationid):
-        flash('success')
+        flash('deleted')
         return redirect('locations')
     else:
         flash('no can do')
