@@ -16,6 +16,7 @@ class Location(db.Model):
     state = db.Column(db.String(2))
     zipcode = db.Column(db.String(10))
     phone = db.Column(db.String(120))
+    location = db.relationship("Schedule", backref='location')
 
     def __unicode__(self):
         return self.facilityname
@@ -66,24 +67,12 @@ class Contact(db.Model):
     email = db.Column(db.String(50))
     comments = db.Column(db.Text)
 
-class Schedule(db.Model):
-    __tablename__ = "schedule"
-
-    scheduleid = db.Column(db.Integer, primary_key=True)
-    locationid = db.Column(db.Integer, db.ForeignKey('location.id'))
-    coursecode = db.Column(db.String(6), db.ForeignKey('course.coursecode'))
-    startdate = db.Column(db.Date())
-    courseid = db.relationship('Courseid', backref="schedule")
-
-    def __unicode__(self):
-        return self.coursecode
-
 class Course(db.Model):
     __tablename__ = "course"
 
-    courseid = db.Column(db.Integer, primary_key=True)
-    coursecode = db.Column(db.String(6))
-    coursename = db.Column(db.String(120))
+    coursecode = db.Column(db.String(7), primary_key=True, autoincrement=True)
+    #coursecode = db.Column(db.String(6), unique=True)
+    coursename = db.Column(db.String(120), unique=True)
     price = db.Column(db.Integer)
     duration = db.Column(db.Integer)
     schedule = db.relationship("Schedule", lazy="joined", backref="course")
@@ -91,6 +80,14 @@ class Course(db.Model):
     def __unicode__(self):
         return self.coursecode
 
+class Schedule(db.Model):
+    __tablename__ = "schedule"
 
+    scheduleid = db.Column(db.Integer, primary_key=True)
+    locationid = db.Column(db.Integer, db.ForeignKey('location.id'))
+    coursecode = db.Column(db.String(6), db.ForeignKey('course.coursecode'))
+    startdate = db.Column(db.Date())
+    enddate = db.Column(db.Date())
 
-
+    def __unicode__(self):
+        return self.coursecode

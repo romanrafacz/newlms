@@ -6,7 +6,7 @@ strip_filter = lambda x: x.strip() if x else None
 
 
 class LocationForm(Form):
-    location = TextField('location', filters=[strip_filter])
+    location = SelectField('location')
     facilityname = TextField('facilityname', filters=[strip_filter])
     address = TextField('address', filters=[strip_filter])
     suite = TextField('suite', filters=[strip_filter])
