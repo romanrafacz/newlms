@@ -5,6 +5,9 @@
 <!DOCTYPE html>
     
     <head>
+        {% block head %}
+        {% endblock %}
+
         <script src="{{url_for('static', filename='jquery-2.1.1.min.js') }}" ></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,8 +18,6 @@
 
         <title>LMS</title>
 
-        {% block head %}
-        {% endblock %}
     </head>
 
     <body>
@@ -24,18 +25,16 @@
 
         <div class="navbar navbar-default" role="navigation">
             <div class="navbar-inner">
-                <div class="container">
                     <ul class="nav">
 
-                        {{ nav_link('schedule.schedule', 'schedule') }}
-                        {{ nav_link('enrollments.index', 'enrollments') }}
-                        {{ nav_link('courses.courses', 'courses') }}
-                        {{ nav_link('students.students', 'students') }}
-                        {{ nav_link('locations.locations', 'locations') }}
-                        {{ nav_link('contact.contactus', 'contactus') }}
+                        <li>{{ nav_link('schedule.schedule', 'schedule') }}</li>
+                        <li>{{ nav_link('enrollments.index', 'enrollments') }}</li>
+                        <li>{{ nav_link('courses.courses', 'courses') }}</li>
+                        <li>{{ nav_link('students.students', 'students') }}</li>
+                        <li>{{ nav_link('locations.locations', 'locations') }}</li>
+                        <li>{{ nav_link('contact.contactus', 'contactus') }}</li>
 
                     </ul>
-                </div>
             </div>
         </div>
 

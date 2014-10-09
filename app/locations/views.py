@@ -17,8 +17,6 @@ def locations():
     """
     Form = LocationForm()
     Form.state.choices = [(g.id, g.state) for g in Location.query.order_by('state')]
-    Form.location.choices = [(g) for g in ['AL', 'CA', 'IL']]
-    #Form.location.choices = [(g.id, g.location + g.city) for g in Location.query.order_by('location')]
     ibmlocations = db.session.query(Location).all()
     return render_template('locations.html', locations=ibmlocations, form=Form)
 
@@ -57,7 +55,6 @@ def editlocation():
     #location = Location.query.get(1)
     Form = LocationForm()
     Form.state.choices = [(g.id, g.state) for g in Location.query.order_by('state')]
-    Form.location.choices = [(g.id, g.location + g.city) for g in Location.query.order_by('location')]
     return render_template('editlocations.html', form=Form)
 
 def delete_location(locationid):

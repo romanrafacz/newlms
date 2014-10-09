@@ -91,3 +91,9 @@ class Schedule(db.Model):
 
     def __unicode__(self):
         return self.coursecode
+
+class States(db.Model):
+    __tablename__ = "states"
+
+    stateid = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    state = db.Column(db.String(2))
