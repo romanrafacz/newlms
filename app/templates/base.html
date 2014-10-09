@@ -24,8 +24,9 @@
         <div class="container">
 
         <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-inner">
-                    <ul class="nav">
+        <div class="container-fluid">
+            <div class="collape navbar-collapse navbar-inner">
+                    <ul class="nav navbar-nav">
 
                         <li>{{ nav_link('schedule.schedule', 'schedule') }}</li>
                         <li>{{ nav_link('enrollments.index', 'enrollments') }}</li>
@@ -36,9 +37,15 @@
                         <li>{{ nav_link('profile.profile', 'profile') }}</li>
 
                     </ul>
-            </div>
-        </div>
 
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a href="#">Link</a></li>
+                    </ul>
+            </div>
+
+
+
+        </div><!-- .container-fluid -->
         </nav>
 
         <div class="container">
@@ -47,6 +54,7 @@
             {% endblock %}
         </div>
 
+        <div>
     </body>
 
 </html>
