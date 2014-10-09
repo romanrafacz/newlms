@@ -11,6 +11,9 @@ app.config.from_object('devconfig')
 
 db = SQLAlchemy(app)
 
+###################
+####Mail Object
+mail = Mail(app)
 
 ####################
 #Import and Register Blueprints
@@ -33,7 +36,3 @@ app.register_blueprint(students_blueprint)
 app.register_blueprint(enrollments_blueprint)
 app.register_blueprint(contact_blueprint)
 app.register_blueprint(profile_blueprint)
-
-####################
-##Setup Mail object
-mail = Mail(app)
