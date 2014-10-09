@@ -23,6 +23,7 @@ from app.schedule.views import schedule_blueprint
 from app.students.views import students_blueprint
 from app.enrollments.views import enrollments_blueprint
 from app.contact.views import contact_blueprint
+from app.profile.views import profile_blueprint
 
 app.register_blueprint(home_blueprint)
 app.register_blueprint(courses_blueprint)
@@ -31,6 +32,7 @@ app.register_blueprint(schedule_blueprint)
 app.register_blueprint(students_blueprint)
 app.register_blueprint(enrollments_blueprint)
 app.register_blueprint(contact_blueprint)
+app.register_blueprint(profile_blueprint)
 
 ####################
 ##Setup Mail object
