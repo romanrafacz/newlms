@@ -1,0 +1,34 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+    <!-- Flashed Messages section -->
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flash">
+                {% for message in messages %}
+                    {{message}}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <!-- User Login form -->
+
+    <form class="form-signin" action="#" methods="post" role="form">
+        {{form.hidden_tag()}}
+        <h2>Please sign in</h2>
+        
+        {% for input in form if input.widget.input_type != 'hidden' %}
+            <ul class="form-control">
+                {{input.label}}&nbsp{{input}}</br>
+            </ul>
+        {% endfor %}
+
+        <div id="formButtons">
+            <input type="submit" id="addButton" name="addButton" value="Add" />
+        </div>
+    </form>
+
+{% endblock %}

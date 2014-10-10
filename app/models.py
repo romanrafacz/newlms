@@ -97,3 +97,10 @@ class States(db.Model):
 
     stateid = db.Column(db.Integer, primary_key=True, autoincrement=True)
     state = db.Column(db.String(2))
+
+class Users(db.Model):
+    __tablename__ = 'users'
+
+    users_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    username = db.Column(db.String(25), nullable=False)
+    password = db.Column(db.String(25), nullable=False)

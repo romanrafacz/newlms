@@ -1,10 +1,15 @@
 from flask import Flask
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask_mail import Mail
+from flask_login import LoginManager
 
 app = Flask(__name__)
 
 app.config.from_object('devconfig')
+
+####################
+###Login Manager object
+login_manager = LoginManager(app)
 
 ####################
 #db object
@@ -27,6 +32,7 @@ from app.students.views import students_blueprint
 from app.enrollments.views import enrollments_blueprint
 from app.contact.views import contact_blueprint
 from app.profile.views import profile_blueprint
+from app.users.views import users_blueprint
 
 app.register_blueprint(home_blueprint)
 app.register_blueprint(courses_blueprint)
@@ -36,3 +42,4 @@ app.register_blueprint(students_blueprint)
 app.register_blueprint(enrollments_blueprint)
 app.register_blueprint(contact_blueprint)
 app.register_blueprint(profile_blueprint)
+app.register_blueprint(users_blueprint)
