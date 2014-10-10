@@ -83,8 +83,9 @@
     <!--   Locations Table   -->
 
 
-    <div class="table">
-        <table name="locationstable">
+    <!-- <div class="table"> -->
+        <table id="example">
+            <thead>
             <tr>
                 <th>Edit</th>
                 <th>Location</th>
@@ -93,8 +94,10 @@
                 <th>phone</th>
                 <th>delete</th>
             </tr>
+            </thead>
 
             {% for facility in locations %}
+            <tbody>
             <tr>
                 <td><form name="editform" action="{{url_for('locations.editlocation', locationid=facility.id)}}" method="post">
                     <a href="javascript:;" onclick="document.getElembentById('editform').submit();">edit</a><input type="hidden" name="edit" /></form></td>
@@ -105,9 +108,15 @@
                 <td><a href="{{url_for('locations.deletelocation', locationid=facility.id)}}">
                     <img src="http://png-4.findicons.com/files/icons/1580/devine_icons_part_2/128/trash_recyclebin_empty_closed.png" alt="delete" style="width:25px;height:25px" onclick="confirmDelete();"></a></td>
             </tr>
+            </tbody>
 
             {% endfor %}
         </table>
-     </div>
+
+     <script>
+    $(function(){
+        $("#example").dataTable();
+    })
+     </script>
 
 {% endblock %}
