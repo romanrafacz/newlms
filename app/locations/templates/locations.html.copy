@@ -96,7 +96,7 @@
             </tr>
             </thead>
 
-         <!--   {% for facility in locations %}
+            {% for facility in locations %}
             <tbody>
             <tr>
                 <td><form name="editform" action="{{url_for('locations.editlocation', locationid=facility.id)}}" method="post">
@@ -110,9 +110,7 @@
             </tr>
             </tbody>
 
-            {% endfor %} -->
-
-
+            {% endfor %}
         </table>
 
      <script>

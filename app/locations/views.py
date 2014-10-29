@@ -1,10 +1,11 @@
 from flask import render_template, Blueprint, request, url_for, flash, redirect
 from wtforms.ext.sqlalchemy.fields import QuerySelectField
 
+##app objects
 from app.models import Location
 from app.locations.forms import LocationForm
-
 from app import db
+
 
 locations_blueprint = Blueprint(
         'locations', __name__,

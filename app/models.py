@@ -24,6 +24,19 @@ class Location(db.Model):
     def __repr__(self):
         return self.facilityname
 
+    @property
+    def serialize(self):
+        return {
+            'location': self.location,
+            'facilityname': self.facilityname,
+            'address' : self.address,
+            'suite' : self.suite,
+            'city' : self.city,
+            'state' : self.city,
+            'zipcode' : self.zipcode,
+            'phone' : self.phone
+        }
+
 
 class Instructor(db.Model):
     __tablename__ = "instructor"
