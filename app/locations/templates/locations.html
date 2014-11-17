@@ -35,6 +35,7 @@
 
     {% endblock %}
 
+    <!-- Script End-->
 
     <!-- body content-->
 
@@ -79,6 +80,7 @@
     <div id="failure" class="statusMessage"><p>There was a problem sending your message. Please try again.</p></div>
     <div id="incomplete" class="statusMessage"><p>Please complete all the fields in the form before sending.</p></div>
 
+    
 
     <!--   Locations Table   -->
 
@@ -96,32 +98,26 @@
             </tr>
             </thead>
 
-         <!--   {% for facility in locations %}
             <tbody>
-            <tr>
-                <td><form name="editform" action="{{url_for('locations.editlocation', locationid=facility.id)}}" method="post">
-                    <a href="javascript:;" onclick="document.getElembentById('editform').submit();">edit</a><input type="hidden" name="edit" /></form></td>
-                <td><a href="{{url_for('locations.searchbylocation', locationid=facility.id)}}">{{facility}}</td></a>
-                <td>{{facility.city}}</td>
-                <td>{{facility.state}}</td>
-                <td>{{facility.phone}}</td>
-                <td><a href="{{url_for('locations.deletelocation', locationid=facility.id)}}">
-                    <img src="http://png-4.findicons.com/files/icons/1580/devine_icons_part_2/128/trash_recyclebin_empty_closed.png" alt="delete" style="width:25px;height:25px" onclick="confirmDelete();"></a></td>
-            </tr>
+                {% for loc in locations %}
+                <tr>
+                    <td>{{loc.id}}</td>
+                    <td>{{loc.facilityname}}</td>
+                    <td>{{loc.city}}</td>
+                    <td>{{loc.state}}</td>
+                    <td>{{loc.phone}}</td>
+                    <td>{{delete}}</td>
+                </tr>
+                {% endfor %}
             </tbody>
-
-            {% endfor %} -->
-
-
         </table>
-
+        
      <script>
-    $(function(){
+
+    $(document).ready(function() {
         $("#example").dataTable( {
-            responsive: true
-            
             });
-    });
+        });
 
      </script>
 

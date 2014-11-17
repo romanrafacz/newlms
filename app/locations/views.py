@@ -1,4 +1,4 @@
-from flask import render_template, Blueprint, request, url_for, flash, redirect
+from flask import render_template, Blueprint, request, url_for, flash, redirect, jsonify
 from wtforms.ext.sqlalchemy.fields import QuerySelectField
 
 ##app objects
@@ -77,3 +77,13 @@ def deletelocation(locationid):
     else:
         flash('no can do')
         return redirect('locations')
+
+@locations_blueprint.route('/_ajax_data')
+def ajax_data():
+    """
+    Data to go into DataTables Template
+    """
+    #return jsonify({'draw':1, 'recordsTotal':1, "data":[[1, 'ATG', 'Atnta', 'AL', '708-299-7663', 'delete'],['2', 'CTS', 'chicago', 'IL', '708-299-7663', 'delete']] })
+    #return jsonify({"data":['edit':1, 'location':'ATG', 'city':'Atlanta', 'state':'AL', 'phone':'708-299-7663', 'delete':'delete']})
+    #return jsonify({'edit':1, 'location':'ATG', 'city':'Atlanta', 'state':'AL', 'phone':'708-299-7663', 'delete':'delete'})
+    return jsonfiy(locations=(i.serialize for i in db.session.query(Locations).all()))

@@ -2,6 +2,27 @@
 
 {% block content %}
 
-This the schedules index page
+<script>
+
+    $(document).ready(function() {
+        $("#scheduleTable").DataTable({
+        });
+    });
+</script>
+
+    <table id="scheduleTable"> 
+        <thead>
+            <tr>
+                <th>coursecode</th>
+                <th>date</th>
+                <th>location</th>
+            </tr>
+        </thead>
+    </table> 
+
+    <tbody>
+    </tbody>
+
+    </table>
 
 {% endblock %}

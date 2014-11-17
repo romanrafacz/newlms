@@ -1,8 +1,27 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<script>
 
-This the updated students index page
+    $(document).ready(function() {
+        $("#studentTable").DataTable( {
+        });
+    });
+</script>
 
+
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>fname</th>
+                <th>lname</th>
+                <th>email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        </tbody>
+
+    </table>
 
 {% endblock %}

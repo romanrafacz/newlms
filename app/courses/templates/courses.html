@@ -2,6 +2,27 @@
 
 {% block content %}
 
-This the courses index page
+
+<script>
+    $(document).ready(function(){
+        $("#courseTable").DataTable({
+        });
+    });
+</script>
+
+    <table id="courseTable">
+        <thead>
+            <tr>
+                <th>coursecode</th>
+                <th>coursetitle</th>
+                <th>price</th>
+                <th>duration</th>
+            </tr>
+        </thead>
+
+    <tbody>
+    </tbody>
+    </table>
+
 
 {% endblock %}
