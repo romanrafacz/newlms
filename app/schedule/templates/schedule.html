@@ -14,15 +14,23 @@
         <thead>
             <tr>
                 <th>coursecode</th>
-                <th>date</th>
                 <th>location</th>
+                <th>price</th>
+                <th>startdate</th>
+                <th>enddate</th>
             </tr>
         </thead>
-    </table> 
 
     <tbody>
+        {% for x in schedule %}
+        <tr>
+        <td>{{x.coursecode}}</td>
+        <td>{{x.location}}</td>
+        <td>{{x.price}}</td>
+        <td>{{x.startdate}}</td>
+        <td>{{x.enddate}}</td>
+        </tr>
+        {% endfor %}
     </tbody>
-
     </table>
-
 {% endblock %}

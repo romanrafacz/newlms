@@ -54,16 +54,18 @@ class Instructor(db.Model):
 class Enrollments(db.Model):
     __tablename__ = "enrollments"
 
-    id = db.Column(db.Integer, primary_key=True)
+    enrollment_id = db.Column(db.Integer, primary_key=True)
     coursecode = db.Column(db.String(8))
-    trainingid = db.Column(db.String(10))
+    training_id = db.Column(db.String(10))
     startdate = db.Column(db.Date())
     enddate = db.Column(db.Date())
-    location = db.Column(db.String(35))
-    studentname = db.Column(db.String(50))
-    studentemail = db.Column(db.String(50))
-    phone = db.Column(db.String(12))
-    trainingid = db.Column(db.String(12))
+    location = db.Column(db.String(100))
+    student_id = db.Column(db.String(100))
+    student_name = db.Column(db.String(50))
+    student_email = db.Column(db.String(50))
+    phone = db.Column(db.String(20))
+    price = db.Column(db.String(10))
+    status = db.Column(db.String(15))
 
     def __unicode__(self):
         return self.coursecode
@@ -83,12 +85,13 @@ class Contact(db.Model):
 class Course(db.Model):
     __tablename__ = "course"
 
-    coursecode = db.Column(db.String(7), primary_key=True, autoincrement=True)
-    #coursecode = db.Column(db.String(6), unique=True)
-    coursename = db.Column(db.String(120), unique=True)
-    price = db.Column(db.Integer)
-    duration = db.Column(db.Integer)
-    schedule = db.relationship("Schedule", lazy="joined", backref="course")
+    course_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    coursecode = db.Column(db.String(6), unique=True)
+    coursename = db.Column(db.String(120))
+    price = db.Column(db.String(10))
+    duration = db.Column(db.String(10))
+    category = db.Column(db.String(250))
+    #schedule = db.relationship("Schedule", lazy="joined", backref="course")
 
     def __unicode__(self):
         return self.coursecode

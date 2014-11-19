@@ -1,4 +1,6 @@
 from flask import render_template, Blueprint
+from app import db
+from app.models import Enrollments
 
 schedule_blueprint = Blueprint(
         'schedule', __name__,
@@ -7,4 +9,5 @@ schedule_blueprint = Blueprint(
 
 @schedule_blueprint.route('/schedule')
 def schedule():
-    return render_template("schedule.html")
+    schedule = db.session.query(Enrollments).all()
+    return render_template("schedule.html", schedule=schedule)

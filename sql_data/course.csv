@@ -1,0 +1,368 @@
+WD150,Introduction to Object-Oriented Programming with Java Examples,3,1875,Java and object oriented programming
+WD154,Java SE 6 Programming Fundamentals,5,3125,Java and object oriented programming
+WD322,Ajax and Web 2.0 Development with WebSphere Application Server V7,5,3125,WebSphere Application Server development
+WD370,Java EE 5 Development for WebSphere Application Server V7,4,2500,Other Application Development courses
+WD506,Web Service Development for IBM WebSphere Application Server V7,5,3125,Web services
+WM204,IBM WebSphere MQ V7.1 System Administration (using Windows for labs),4,2900,WebSphere MQ
+WM206,IBM WebSphere MQ V7.1 System Administration (using Linux for labs),4,2900,WebSphere MQ
+WM203,IBM WebSphere MQ V7 System Administration (Linux labs),4,2400,WebSphere MQ
+WM300,IBM WebSphere MQ V7 System Administration for z/OS,4,2400,WebSphere MQ
+WM663,IBM WebSphere Message Broker V7.0 Developer Workshop,5,3125,WebSphere Message Broker
+WM202,IBM WebSphere MQ V7 System Administration (AIX labs),4,2400,WebSphere MQ
+WM211,IBM WebSphere MQ V7.5 Advanced System Administration (Distributed),4,2900,WebSphere MQ
+WM664,IBM WebSphere Message Broker V8 Application Development I,5,3625,WebSphere Message Broker
+WB753,Developing Applications for IBM WebSphere Enterprise Service Bus V7.5,5,3875,WebSphere Enterprise Service Bus
+WM644,IBM WebSphere Message Broker V8.0 System Administration,5,2900,WebSphere Message Broker
+WM101,Technical Introduction to IBM WebSphere MQ,1,725,WebSphere MQ
+VM663,IBM WebSphere Message Broker V7.0 Developer Workshop (Remote Classroom),5,3125,WebSphere Message Broker
+WM201,IBM WebSphere MQ V7 System Administration (using Windows for labs),4,2400,WebSphere MQ
+WM674,IBM WebSphere Message Broker V8 Application Development II,3,2175,WebSphere Message Broker
+VM211,IBM WebSphere MQ V7.5 Advanced System Administration (Distributed),4,2900,WebSphere MQ
+WM251,IBM WebSphere MQ V7: Designing and Architecting Clustering Solutions,4,2900,WebSphere MQ
+WM504,IBM WebSphere MQ V7.5 Application Development (Windows Labs),3,2175,WebSphere MQ
+WM505,IBM WebSphere MQ V7.5 Application Development (Linux Labs),3,2175,WebSphere MQ
+6L632,IBM Sterling B2B Integrator Advanced Business Process Modeling (ILO),2,1500,IBM Sterling B2B Integrator
+6T611,IBM Sterling B2B Integrator Fundamentals,5,3750,IBM Sterling B2B Integrator
+6T636,IBM Sterling B2B Integrator Administration and Tuning,4,3000,IBM Sterling B2B Integrator
+6T801,IBM Sterling Selling and Fulfillment Foundation Part. Modeling and User Security,2,1550,IBM Sterling B2B Integrator
+6T806,IBM Sterling Selling and Fulfillment Foundation - Process Modeling,1,775,IBM Sterling B2B Integrator
+6T814,IBM Sterling Inventory Management and Order Management Business Rules,3,2325,IBM Sterling B2B Integrator
+DW501,IBM Netezza Appliance Usage,3,2250,Netezza Data Warehouse Appliances - BD
+DW520,IBM Netezza Appliance Usage and Advanced Concepts,5,3750,Netezza Data Warehouse Appliances - BD
+DW510,IBM Netezza Appliance Advanced Concepts,2,1500,Netezza Data Warehouse Appliances - BD
+DW551,IBM Netezza Appliance Usage and Advanced Concepts,3,3750,Netezza Data Warehouse Appliances - BD
+DW540,IBM Netezza Appliance Usage and Advanced Concepts,2,3750,Netezza Data Warehouse Appliances - BD
+WB802,Modeling and Implementing with IBM Business Process Manager V8,5,3875,IBM Business Process Manager Express and Standard
+WB851,Developing Applications for IBM Business Process Manager Advanced V8 - I,5,3875,IBM Business Process Manager Advanced
+WB743,Modeling and Implementing with IBM Business Process Manager V7.5.1,5,3875,IBM Business Process Manager Express and Standard
+VB751,Developing Applications for IBM Business Process Manager Advanced V7.5 - I (ILO),5,3875,IBM Business Process Manager Advanced
+WB751,Developing Applications for IBM Business Process Manager Advanced V7.5 - I,5,3875,IBM Business Process Manager Advanced
+WB804,Administration of IBM Business Process Manager Standard V8,4,3100,IBM Business Process Manager Express and Standard
+WB862,Administration of IBM Business Process Manager Advanced V8,5,3875,IBM Business Process Manager Advanced
+VB743,Modeling and Implementing with IBM Business Process Manager V7.5.1,5,4250,WebSphere Lombardi Edition
+WB803,Process Implementation with IBM Business Process Manager Standard V8 - II,5,3875,IBM Business Process Manager Express and Standard
+WB381,Developing Rule Solutions in IBM WebSphere Operational Decision Management V8,5,3875,WebSphere Operational Decision Management
+WB321,Developing Rule Solutions in IBM WebSphere Operational Decision Management V7.5,5,3875,WebSphere Operational Decision Management
+WB384,Managing Decisions in IBM WebSphere Operational Decision Management V8,5,3875,WebSphere Operational Decision Management
+WB387,Administering IBM WebSphere Operational Decision Management V8,4,3100,WebSphere Operational Decision Management
+WM844,CICSPlex System Manager V4 Introduction,1,750,System Manager
+WM854,CICSPlex System Manager V4 Administration,4,3000,System Manager
+2K100,IBM Cognos Financial Statement Reporting (FSR) (V6.6) - ILO,2,1400,Financial Statement Reporting (FSR)
+2K101,IBM Cognos Financial Statement Reporting (FSR): XBRL (V6.6) - ILO,2,1400,Financial Statement Reporting (FSR)
+2K105,IBM Cognos FSR: XBRL Detailed Tagging (V6.6) - ILO,2,1400,Financial Statement Reporting (FSR)
+WE942,IBM WebSphere Cast Iron V6.1 Configuration,3,2325,Cast Iron Systems
+1SM00,Introduction to Cloud Computing Architecture,2,1950,Cast Iron Systems
+1SP20,Implementing IBM SmartCloud Entry on Power Systems,2,1950,Cast Iron Systems
+P8152,IBM Cognos TM1: Design and Develop Models (V10.1),5,3500,PM - Cognos TM1 (version 10.1)
+B5152,IBM Cognos Framework Manager: Design Metadata Models (V10.1),5,3500,BI - Cognos BI (version 10.1)
+B5155,IBM Cognos BI Administration (V10.1),3,2100,BI - Cognos BI (version 10.1)
+B5157,IBM Cognos Metric Studio: Design Scorecards (V10.1/10.2),3,2100,BI - Cognos BI (version 10.1)
+B5160,IBM Cognos Report Studio: Author Professional Reports (V10.1),5,3500,BI - Cognos BI (version 10.1)
+B5161,IBM Cognos Report Studio: Author Reports with Multidimensional Data (V10.1),2,1400,BI - Cognos BI (version 10.1)
+B5252,IBM Cognos Framework Manager: Design Metadata Models (V10.2),5,3500,BI - Cognos BI (version 10.2)
+B5260,IBM Cognos Report Studio: Author Professional Reports (V10.2),5,3500,BI - Cognos BI (version 10.2)
+I5160,IBM Cognos Report Studio: Author Professional Reports (V10.1) - ILO,5,3500,BI - Cognos BI (version 10.1)
+P8101,IBM Cognos Planning Analyst: Build Models (V10.1),5,3500,PM - Cognos Planning (version 10.1)
+I5150,IBM Cognos Query Studio: Build Ad Hoc Reports (V10.1/10.2) - ILO,1,700,BI - Cognos BI (version 10.1)
+I6507,IBM Cognos TM1: Analyze Data (V9.5) - ILO,3,2100,PM - Cognos TM1
+B5150,IBM Cognos Query Studio: Build Ad Hoc Reports (V10.1/10.2),1,700,BI - Cognos BI (version 10.1)
+B5198,IBM Cognos Report Studio: Author Active Reports (V10.1),1,700,BI - Cognos BI (version 10.1)
+O2451,IBM Cognos 8 BI Analysis Studio: Analyze Data (V8.4) - Instructor-led Online,1,700,BI - Cognos 8 (version 8.4)
+B5151,IBM Cognos BI Analysis Studio: Analyze Data (V10.1/10.2),1,700,BI - Cognos BI (version 10.1)
+B5182,IBM Cognos Transformer: Design OLAP Models (V10.1),4,2800,BI - Cognos BI (version 10.1)
+B5282,IBM Cognos Transformer: Design OLAP Models (V10.2),4,2800,BI - Cognos BI (version 10.2)
+I5152,IBM Cognos Framework Manager: Design Metadata Models (V10.1) - ILO,5,3500,BI - Cognos BI (version 10.1)
+O2457,IBM Cognos 8 BI Metrics Manager: Design Scorecards (V8.4) - ILO,3,2100,BI - Cognos 8 (version 8.4)
+B5181,IBM Cognos Business Insight Advanced: Author Self-Service Reports (V10.1),2,1400,BI - Cognos BI (version 10.1)
+B5119,IBM Cognos BI Administration: Architecture and Logging (V10.1.1),2,1400,BI - Cognos BI (version 10.1)
+B5280,IBM Cognos Data Manager: Build Data Marts with Enterprise Data (V10.2),5,3500,BI - Cognos BI (version 10.2)
+B5281,IBM Cognos Workspace Advanced: Author Self-Service Reports (V10.2),2,1400,BI - Cognos BI (version 10.2)
+I5158,IBM Cognos Report Studio: Author Professional Reports Fundamentals (V10.1) - ILO,3,2100,BI - Cognos BI (version 10.1)
+O2458,IBM Cognos 8 BI Report Studio: Author Professional Reports Fundamentals (V8.4),3,2100,BI - Cognos 8 (version 8.4)
+I5159,IBM Cognos Report Studio: Author Professional Reports Advanced (V10.1) - ILO,2,1400,BI - Cognos BI (version 10.1)
+O2461,IBM Cognos 8 BI Report Studio: Author Reports with Multidimensional Data (V8.4),2,1400,BI - Cognos 8 (version 8.4)
+B5180,IBM Cognos Data Manager: Build Data Marts with Enterprise Data (V10.1),5,3500,BI - Cognos BI (version 10.1)
+I5161,IBM Cognos Report Studio:Author Reports with Multidimensional Data (V10.1) - ILO,2,1400,BI - Cognos BI (version 10.1)
+O2480,IBM Cognos 8 BI Data Manager: Build Datamarts with Enterprise Data (V8.4) - ILO,5,3500,BI - Cognos 8 (version 8.4)
+P8157,IBM Cognos TM1: Analyze and Share Data (V10.1),3,2100,PM - Cognos TM1 (version 10.1)
+I5181,IBM Cognos Business Insight Advanced: Author Self-Service Reports (V10.1) - ILO,2,1400,BI - Cognos BI (version 10.1)
+B5261,IBM Cognos Report Studio: Author Reports with Multidimensional Data (V10.2),2,1400,BI - Cognos BI (version 10.2)
+I5182,IBM Cognos Transformer: Design OLAP Models (V10.1) - ILO,4,2800,BI - Cognos BI (version 10.1)
+P8155,IBM Cognos TM1: Administer the Technical Environment (V10.1),2,1400,PM - Cognos TM1 (version 10.1)
+I5198,IBM Cognos Report Studio: Author Active Reports (V10.1) -ILO,1,700,BI - Cognos BI (version 10.1)
+O8152,IBM Cognos TM1: Design and Develop Models (V10.1) ILO,5,3500,PM - Cognos TM1 (version 10.1)
+I5219,IBM Cognos BI Administration: Architecture and Logging (V10.2) ILO,2,1400,BI - Cognos BI (version 10.2)
+I5255,IBM Cognos BI Administration (V10.2) - ILO,3,2100,BI - Cognos BI (version 10.2)
+O8157,IBM Cognos TM1: Analyze and Share Data (V10.1) ILO,3,2100,PM - Cognos TM1 (version 10.1)
+I5258,IBM Cognos Report Studio: Author Professional Reports Fundamentals (V10.2) - ILO,3,2100,BI - Cognos BI (version 10.2)
+I5259,IBM Cognos Report Studio: Author Professional Reports Advanced (V10.2) - ILO,2,1400,BI - Cognos BI (version 10.2)
+B5255,IBM Cognos BI Administration (V10.2),3,2100,BI - Cognos BI (version 10.2)
+I5261,IBM Cognos Report Studio: Author Reports with Multidimensional Data V10.2 - ILO,2,1400,BI - Cognos BI (version 10.2)
+9T331,Introduction to IBM Unica Campaign 8.6,3,2250,Unica Campaign
+9T318,IBM Unica Campaign 8.5 Administration,2,1500,Unica Campaign
+9T332,IBM Unica Campaign 8.6 Administration,2,1500,Unica Campaign
+9T317,Introduction to IBM Unica Campaign 8.5,3,2250,Unica Campaign
+CL213,DB2 10 for LUW: Basic Administration for AIX,4,2680,"DB2 for Linux, UNIX, and Windows"
+CL2X3,DB2 10 for LUW: Basic Administration for Linux and Windows,4,2680,"DB2 for Linux, UNIX, and Windows"
+CL484,"DB2 10.1 for Linux, UNIX, and Windows Quickstart for Experienced Relational DBAs",4,2680,"DB2 for Linux, UNIX, and Windows"
+CL443,DB2 LUW Performance Tuning/Monitoring for Single/Multiple Partition DBs,5,3350,"DB2 for Linux, UNIX, and Windows"
+CL442,DB2 LUW Performance Tuning and Monitoring for Single and Multiple Partition DBs,5,3350,"DB2 for Linux, UNIX, and Windows"
+GU201,IBM InfoSphere Guardium Technical Training,3,3090,InfoSphere Guardium
+CL412,"DB2 for Linux, UNIX, and Windows Performance Tuning and Monitoring Workshop",4,2680,"DB2 for Linux, UNIX, and Windows"
+CL492,DB2 9 for LUW Advanced Database Recovery,4,2680,"DB2 for Linux, UNIX, and Windows"
+CL462,DB2 9 for LUW Advanced Database Administration for Experts,5,3350,"DB2 for Linux, UNIX, and Windows"
+CV831,DB2 10 for z/OS Database Administration Workshop Part 1,5,3350,DB2 for z/OS
+CV851,DB2 10 for z/OS System Administration,5,3350,DB2 for z/OS
+CV312,DB2 for z/OS - New Features in Version 10 Workshop,5,3350,DB2 for z/OS
+CV842,DB2 10 for z/OS Database Administration Part 2,3,2010,Database Administration - z/OS
+CE131,DB2 SQL Workshop for Experienced Users,2.5,2010,DB2 Tools for z/OS
+CMW01,IMS Fundamental - Web - ILO,6,1035,IMS
+CV962,DB2 10 for z/OS Application Performance and Tuning,5,3350,Database Administration - z/OS
+CMW22,Physical Organization of Databases - Web - ILO,8,1375,IMS
+CE031,DB2 Family Fundamentals,2,1025,DB2 Tools for z/OS
+CE121,DB2 SQL Workshop,2,1025,DB2 Tools for z/OS
+CV861,DB2 10 for z/OS Implementation Workshop,5,3350,DB2 for z/OS
+CV871,DB2 10 for z/OS Utilities for Database Administrators,3,2010,DB2 for z/OS
+CMW44,IMS Database Repair - Web - ILO,4,695,IMS
+CV450,DB2 for z/OS Data Sharing Implementation Workshop,4.5,3350,Data Sharing
+CV470,DB2 for z/OS Data Sharing Performance and Tuning,5,3350,Application Programming - z/OS
+ZZ101,Initiate Technical Boot Camp V10,5,5390,Business Intelligence &amp; Data Warehousing
+F1440,IBM FileNet BPM 5.0: Administration,4,3000,FileNet Business Process Manager
+F1767,IBM Datacap Taskmaster Capture 8.0.1: Implementation and Configuration (ILO),5,3750,Datacap Taskmaster
+F1420,IBM FileNet P8 Platform 5.0: System Implementation and Administration,5,3750,FileNet P8 Platform (Content Manager)
+F1450,IBM FileNet BPM 5.0: Process Design,5,3750,FileNet Business Process Manager
+F1850,"IBM Case Manager 5.1: Build, Deploy, and Monitor a Solution",4,3000,Case Manager
+F1870,IBM Datacap Taskmaster 8.1 - Administration,3,2475,Datacap Taskmaster
+F1760,IBM Datacap Taskmaster Capture 8.0.1: Implementation and Configuration,5,4125,Datacap Taskmaster
+F1900,IBM FileNet P8 Platform 5.1: Installation,4,3000,FileNet P8 Platform (Content Manager)
+F1427,IBM FileNet P8 Platform 5.0: System Implementation and Administration (ILO),5,3750,FileNet P8 Platform (Content Manager)
+WU503,Mobile Application Development with IBM Worklight V5 - Early Education,5,3875,IBM Worklight
+SSF50,IBM DS8000 Copy Services for Open Systems,4,3855,Storage
+SN712,Storage Area Networking Fundamentals,4.5,3625,Storage Networking and Storage Virtualization
+SN781,Supporting IBM N series,5,3625,Storage Networking and Storage Virtualization
+SNV10,SAN Volume Controller (SVC) V6 Planning and Implementation Workshop,4,3315,Storage Networking and Storage Virtualization
+SS291,IBM TS7650 ProtecTIER,2,1950,Related Storage Courses
+SSE10,IBM Storwize V7000 Implementation Workshop,4,3550,Storage
+SSA00,IBM XIV Technical Training,2,1765,Storage
+SSF00,IBM DS8000 Implementation Workshop for Open Systems,4,3315,Storage Networking
+SSD00,Scale Out Network Attached Storage (SONAS) Technical Training,3,2750,Storage
+SSF10,IBM DS8000 Implementation Workshop for System z,3,2550,Storage
+SS840,DFSMS Implementation,4.5,4100,Storage
+SGA12,TPC Systems Storage Hands On Workshop (SHOW) (ILO),1,1940,Storage Networking and Storage Virtualization
+SGA13,SVC Systems Hands On Workshop (SHOW) (ILO),1,1940,Storage Networking and Storage Virtualization
+SGA18,TPC for Replication Systems Storage Hands on Workshop (SHOW) (ILO),1,1490,Storage Networking and Storage Virtualization
+SS860,DFSMShsm Implementation,4.5,4100,Storage
+SSG00,IBM Storwize V7000 Unified Implementation Workshop,4,3550,Storage
+AS240,System Operator Workshop for IBM i,4,3500,System Operations
+OL520,Hardware Management Console (HMC) for Power System with IBM i,2,1950,System Operations
+AS5E0,PowerVM on IBM i - I: Implementing Virtualization and LPAR,3,2235,System Administration for System i
+OL190,IBM i Administration and Control,4.5,3665,System Administration for System i
+OE980,Introduction to IBM i for New Users,1,800,System i Introductory Courses
+AS270,Advanced System Operator Workshop for IBM i,3,2235,System Operations
+AS280,BRMS for IBM i,4.5,3975,System Administration for System i
+OL500,IBM i Security Concepts and Implementation,2,1240,System Administration for System i
+OL510,IBM i Recovery and Availability Management,2,1240,System Administration for System i
+OL201,Control Language Programming Workshop for IBM i,4,3875,Related System i Courses
+AN100,UNIX / AIX Basics,4,2825,AIX System Administration
+AN120,Power Systems for AIX II: AIX Implementation and Administration,5,3775,AIX System Administration
+AN510,Power Systems for AIX IV: Performance Management,5,4195,AIX System Administration
+AN610,"PowerHA 7 Planning, Implementing, Customizing and Administration",5,3975,AIX High Availability
+AN150,Power Systems for AIX III: Advanced Administration and Problem Determination,5,3875,AIX System Administration
+AN220,AIX Network Installation Management (NIM): Concepts and Configuration,2,1425,AIX Networking
+AN301,Power Systems for AIX - Virtualization I: Implementing Virtualization,5,3975,AIX System Administration
+AN310,Power Systems for AIX - Virtualization II: Advanced PowerVM and Performance,4.5,4095,AIX System Administration
+AN110,Power Systems for AIX I: LPAR Configuration and Planning,3,2265,Logical Partitioning (LPAR)
+AN410,"PowerHA SystemMirror 6.1 Planning, Implementation and Administration",5,4495,AIX High Availability
+AN140,AIX Jumpstart for UNIX Professionals,5,3775,Transformation Courses
+AN620,PowerHA 7 Additional Configurations,5,3975,AIX High Availability
+AL320,Korn and Bash Shell Programming,5,3525,AIX Programming
+AN810,GPFS System Administration,2.5,2470,AIX System Administration
+AN820,GPFS Performance Tuning on AIX,2,1950,AIX System Administration
+AN080,Power and AIX Enhancements Workshop,3,2470,AIX System Administration
+AN170,AIX Workload Partitions Installation and Management,4,3550,Logical Partitioning (LPAR)
+AN520,Advanced Tools for AIX Performance Analysis,4,3500,AIX System Administration
+AN720,UNIX / AIX User Essentials,2,1950,AIX System Administration
+AX410,"PowerHA for AIX I: Implementation, Configuration and Administration (ILO)",5,4495,AIX High Availability
+AN210,TCPIP for AIX Administrators,4,2825,AIX Networking
+AN940,IBM Systems Director 6.3 for Power Systems I: Installation and Management,3,2470,AIX System Administration
+AN960,IBM Systems Director VMControl 2.4 for Cloud Computing Infrastructure,2,1735,AIX System Administration
+AN570,Implementing AIX Advanced Security Features,5,3975,AIX Security
+AN440,PowerHA/XD: Extended Distance and Disaster Recovery,3,2470,AIX High Availability
+NGT11,IBM PureFlex System Fundamentals,3,1995,Technical
+NGTB1,IBM PureFlex Systems Fundamentals with Implementation Services,5,3250,Technical
+NGTB2,IBM PureFlex Systems Implementation Services,2,1475,Technical
+GDPS1,GDPS/PPRC Implementation Workshop,5,3900,Parallel Sysplex
+ES240,IBM System z Hardware Management Console (HMC) Operations,2,1815,z/OS Operations
+ES050,An Introduction to the z/OS Environment,2,1195,System z Basics
+ES732,IBM System z Parallel Sysplex Operations,3,2795,Parallel Sysplex
+ES070,z/OS Job Control Language and Utilities,4.5,2995,System z Basics
+ES10A,Fundamental System Skills in z/OS,4.5,2400,z/OS Basics
+ES155,z/OS Facilities,4.5,2640,z/OS Basics
+ES52A,z/OS REXX Programming Workshop,4.5,2300,System Administrator for z/OS
+ES545,Basic z/OS Tuning Using the Workload Manager (WLM),4.5,3240,System Administrator for z/OS
+ES820,IBM System z: Technical Overview of HW and SW Mainframe Evolution,2,1830,z/OS Operations
+ZL000,z/VM and Linux Boot Camp,5,4495,"System Administrator for z/VM, Linux"
+ES261,SMP/E for z/OS Workshop,4.5,2755,System Administrator for z/OS
+ES962,z/OS HCD and I/O Configuration,4,2715,z/OS Operations
+ES41A,z/OS Installation,4.5,2780,System Administrator for z/OS
+BE870,Effective RACF Administration,4.5,3915,Security Administrator
+CB695,TCP/IP for z/OS Implementation Workshop,5,3925,Networking Administrator
+ES270,z/OS System Operators,3,2495,z/OS Operations
+ES200,z/OS System Services Structure,4.5,2895,System Administrator for z/OS
+ZV062,"Installing, Configuring and Servicing z/VM for Linux Guests",5,3255,"System Administrator for z/VM, Linux"
+ZV200,z/VM RACF and DIRMAINT Implementation,4.5,3190,"System Administrator for z/VM, Linux"
+ES191,Basics of z/OS RACF Administration,4.5,3760,Security Administrator
+ES885,Exploiting the Advanced Features of RACF,3.5,4065,Security Administrator
+TP411,IBM Tivoli Endpoint Manager 8.1 Introduction,1,900,Service Delivery and Process Automation
+TP421,IBM Tivoli Endpoint Manager 8.1 Administration,1,900,Service Delivery and Process Automation
+TP441,IBM Tivoli Endpoint Manager 8.1 Advanced Master Operator,1,900,Service Delivery and Process Automation
+TP431,IBM Tivoli Endpoint Manager 8.1 Content Development,2,1800,Service Delivery and Process Automation
+TN033,IBM Tivoli Netcool/OMNIbus 7.3 Administration and Maintenance,4,3400,Network Service Assurance
+TR571,IBM Maximo Asset Management 7.5 Fundamentals,4,3400,Asset Management
+TX314,IBM Tivoli Workload Scheduler 8.6 Administration,2,1700,Service Delivery and Process Automation
+TS622,"IBM Tivoli Storage Manager 6.3 Advanced Administration, Tuning, Troubleshooting",5,4250,Storage Management
+KM400,IBM InfoSphere Advanced DataStage V8,4,3400,InfoSphere DataStage
+KM502,IBM InfoSphere Information Server Administration 9.1,4,3400,InfoSphere Information Server
+KM202,IBM InfoSphere DataStage Essentials 9.1,4,3400,InfoSphere Information Server
+KM211,IBM InfoSphere QualityStage Essentials V8.7,4,3400,InfoSphere QualityStage
+KM500,IBM InfoSphere Information Server Administration V8,4,3400,InfoSphere Information Server
+KM212,IBM InfoSphere QualityStage Essentials 9.1,4,3400,InfoSphere Information Server
+KM402,IBM InfoSphere Advanced DataStage - Parallel Framework V9.1,3,2550,InfoSphere Information Server
+KM611,Business Glossary Essentials V8.7,1,850,InfoSphere Foundation Tools
+KM621,IBM InfoSphere Metadata Workbench Essentials V8.7,2,1700,InfoSphere Foundation Tools
+KM802,IBM InfoSphere Information Analysis 9.1,4,3400,InfoSphere Information Server
+KM201,IBM InfoSphere DataStage Essentials V8.7,4,3740,Master Data Management
+D8L51,Fundamentals of IBM Lotus Domino 8.5.1 Application Development,5,3000,IBM Notes and Domino 8.5.x
+STL85,Deploying and Administering Lotus Sametime 8.5.1,2,1200,IBM Lotus Sametime
+CNW42,IBM Connections 4.0 - Social Software for Business,2,1400,IBM Lotus Connections
+D8L75,IBM Lotus Domino 8.5 System Administration Fundamentals,1,600,IBM Notes and Domino 8.5
+D8L89,IBM Lotus Domino 8.5 System Administration Bootcamp,5,3000,IBM Notes and Domino 8.5
+D8L76,Building the IBM Lotus Domino 8.5 Infrastructure,2,1200,IBM Notes and Domino 8.5
+D8L77,Managing IBM Lotus Domino 8.5 Servers and Users,3,1800,IBM Notes and Domino 8.5
+D8L55,Introduction to IBM Lotus Domino 8.5 XPages,2,1200,IBM Notes and Domino 8.5
+QRW30,IBM® Lotus® Quickr™ 8.5 Solutions Workshop,3,1800,IBM Lotus Quickr
+D8L36,IBM Lotus Domino 8.5.x Help Desk Troubleshooting,2,1400,IBM Notes and Domino 8.5.x
+D8L53,Developing IBM Lotus Domino 8.5.2 Applications: Intermediate XPage Design,3,2100,IBM Notes and Domino 8.5.x
+D8L54,Developing IBMB. LotusB. DominoB. 8.5.2 Applications: Advanced XPage Design,2,1400,IBM Notes and Domino 8.5.x
+D8V90,IBM Lotus Domino 8/8.5 System Administration Bootcamp,5,3000,IBM Notes and Domino 8.5
+6T710,IBM Sterling Connect:Direct for Microsoft Windows Fundamentals,3,2325,Sterling Connect:Direct
+6T746,IBM Sterling File Gateway - Managing Sterling File Gateway,2,1500,Sterling File Gateway
+6T705,IBM Sterling Connect:Direct for UNIX Fundamentals,3,2325,Sterling Connect:Direct
+6T735,IBM Sterling  Secure Proxy Technical Fundamentals,4,3100,Sterling Secure Proxy
+QN118,Customizing DOORS Using DXL V9.3,2,1400,Requirements definition and management
+RTB02,Functional and Performance Testing Boot Camp,5,3000,Quality management
+RS727,Configuring Projects in IBM Rational Team Concert V4.0,3,2100,Change configuration &amp; release management
+QBC07,IBM Rational DOORS Boot Camp,4,2800,Requirements definition and management
+QN114,"IBM Rational DOORS Practitioner, V9.4",1,795,Requirements definition and management
+QQ143,Essentials of IBM Rational Rhapsody for Systems Engineers V7.6.1,3,2100,Architecture management
+QN164,"IBM Rational DOORS Foundation, V9.4",1,795,Requirements definition and management
+RSP10,IBM Rational ClearQuest Boot Camp,5,3000,Change configuration &amp; release management
+RV042,Essentials of Spring 3.0 Framework using IBM Rational Application Developer V8.0,5,3500,Architecture management
+QN220,Requirements Writing Techniques,1,795,Requirements definition and management
+RT273,"Test Management with IBM Rational Quality Manager, V4.0",2,1400,Quality management
+RR353,"Essentials of IBM Rational Requirements Composer, V4.0",2,1400,Requirements definition and management
+RT283,Testing with IBM Rational Quality Manager V4.0,1,795,Quality management
+QG126,"Efficient Document Production with IBM Rational Publishing Engine, V1.1",1,795,Project and portfolio management
+QN163,"IBM Rational DOORS Foundation, V9.3",1,875,Requirements and Definition Management
+RS726,Configuring Projects in IBM Rational Team Concert V3.0.1,3,2100,Change configuration &amp; release management
+RS842,Developing Software with IBM Rational Team Concert V4.0,1,795,Change configuration &amp; release management
+RS900,Jazz Team Server Administration,2,1400,Change configuration &amp; release management
+RT545,"Essentials of IBM Rational Functional Tester, Java Scripting, V8.0",2,1400,Quality management
+RS633,"Mastering IBM Rational ClearQuest Administration, V7.1",3,2100,Change configuration &amp; release management
+RT525,Essentials of IBM Rational Performance Tester V8.2,2,1400,Quality management
+QB133,"Fundamentals of IBM Rational System Architect, V11.4",1,795,Enterprise architecture management
+QB138,DoDAF 2.0 Modeling with IBM Rational System Architect V.11.4,3,2100,Enterprise architecture management
+RS860,Jazz Team Server V4.0 Administration,2,1400,Change configuration &amp; release management
+QN123,"IBM Rational DOORS Information Architect, V9.3",1,795,Requirements definition and management
+YS842,Developing Software with IBM Rational Team Concert V4.0,1,795,Change configuration &amp; release management
+RTB05,IBM Rational Quality Management Boot Camp,5,3000,Quality management
+RT282,Testing with IBM Rational Quality Manager V3.0.1,1,795,Quality management
+RS504,Essentials of IBM Rational ClearCase for Windows V7.1,2,1400,Change configuration &amp; release management
+RSP01,IBM Rational ClearCase Boot Camp for Windows,5,3000,Change configuration &amp; release management
+RS404,"Essentials of Configuration Management with IBM Rational ClearCase UCM, V7.1",2,1400,Change configuration &amp; release management
+RS602,"Mastering IBM Rational ClearCase Administration for Windows, V7.0 (I)",2,1400,Change configuration &amp; release management
+RD815,Mastering Web Application Development with Rational Application Developer V7.5,4.5,3500,Architecture management
+RS524,Essentials of IBM Rational ClearCase UCM for Windows V7.1,1,795,Change configuration &amp; release management
+RSB20,IBM Rational ClearCase UCM Boot Camp for Windows,5,3000,Change configuration &amp; release management
+RD810,Mastering Servlet and JSP Development with Rational Application Developer v7.5,5,3500,Architecture management
+8W103,IBM Tivoli Access Manager for e-business 6.1.1 Administration/Deployment (ILO),4,3000,Identity and Access Management
+BQ100,IBM Security QRadar SIEM 7.1 Foundations,2,1500,Security Intelligence
+TW103,IBM Tivoli Access Manager for e-business 6.1.1 Administration and Deployment,4,3000,Identity and Access Management
+TW172,IBM Tivoli Access Manager for ESSO 8.1 Deployment and Administration,4,3000,Identity and Access Management
+BQ120,IBM Security QRadar SIEM 7.1 Advanced,2,1700,Security Intelligence
+TW261,IBM Tivoli Identity Manager 5.1 System Administration,3,2250,Identity and Access Management
+TW064,IBM Tivoli Federated Identity Manager 6.2.2,5,3750,Identity and Access Management
+TW091,IBM Tivoli Directory Integrator 7.1 Administration and Deployment,3,2250,Identity and Access Management
+TW233,IBM Tivoli Directory Server 6.3 Advanced Deployment,2,1500,Identity and Access Management
+RL310,Essentials of IBM Rational AppScan Source Edition for Security V8.5,1,795,Application Security
+TW083,IBM Tivoli Directory Server 6.3 System Administration,3,1950,Identity and Access Management
+TW251,IBM Tivoli Identity Manager 5.1 Basic Implementation,5,3750,Identity and Access Management
+VE400,"Accelerate, Secure and Integrate with IBM DataPower V4.0.1 (Remote Classroom)",5,3875,WebSphere DataPower SOA Appliances
+WE400,"Accelerate, Secure and Integrate with IBM DataPower V4.0.1",5,3875,WebSphere DataPower SOA Appliances
+VS811,IBM WebSphere Service Registry and Repository V8.0 for Administrators (Remote),2,1550,WebSphere Service Registry and Repository
+WE420,Administration of IBM WebSphere DataPower SOA Appliances V4.0,3,2325,WebSphere DataPower SOA Appliances
+WE421,Administration of IBM WebSphere DataPower SOA Appliances V5,3,2325,WebSphere DataPower SOA Appliances
+WS811,IBM WebSphere Service Registry and Repository V8.0 for Administrators,2,1550,WebSphere Service Registry and Repository
+WS800,IBM WebSphere Service Registry and Repository V8 for Developers,3,2325,WebSphere Service Registry and Repository
+0A042,Clustering and Association Models with IBM SPSS Modeler - ILT,1,700,Modeler Intermediate
+0A032,Predictive Modeling with IBM SPSS Modeler - ILT,3,2100,Modeler Advanced
+0A004,Introduction to IBM SPSS Modeler and Data Mining (V15),2,1400,Modeler Basic
+0G301,Introduction to IBM SPSS Text Analytics for Surveys (V4.0.1),2,1400,Statistics Intermediate
+0A0U3,Classifying Customers Using IBM SPSS Modeler (V14.2),1,700,Modeler Intermediate
+0A0V3,Predicting Continuous Targets Using IBM SPSS Modeler,1,700,Modeler Intermediate
+0A054,Advanced Data Preparation Using IBM SPSS Modeler (V15),1,700,Modeler Advanced
+TTR54,IBM Tivoli System Administration for Enterprise IT and Asset Management 7.1,2,1300,Enterprise IT and Asset Management
+TN023,IBM Tivoli Netcool/OMNIbus 7.3 Installation and Configuration,3,1800,Netcool/OMNIbus
+TN323,IBM Tivoli Network Manager 3.9 Operation and Administration,5,3000,Network Manager
+TN043,IBM Tivoli Netcool/Impact 6.1 Administration and Implementation,4,2600,Netcool/Impact
+TN013,IBM Tivoli Netcool/OMNIbus 7.3 User,2,1200,Netcool/OMNIbus
+8N323,IBM Tivoli Network Manager 3.9 Operation and Administration (ILO),5,3000,Network Manager
+TV354,IBM Tivoli Monitoring 6.2.3 for Implementers,3,1800,Monitoring
+8V354,IBM Tivoli Monitoring 6.2.3 for Implementers (ILO),3,1800,Monitoring
+8M662,IBM TCAM for Transactions 7.3 Implementation and Administration (ILO),4,2400,Composite Application Manager
+8V382,IBM Tivoli Monitoring 6.2.1 Agent Builder (ILO),2,1200,Monitoring
+TT372,IBM Tivoli Monitoring 6.2 Historical Reporting and Data Collection (ILO),1,600,Monitoring
+TP402,IBM Tivoli Endpoint Manager 8.2 Platform Fundamentals,3,2400,Tivoli Endpoint Manager
+TP350,IBM SmartCloud Control Desk 7.5 Foundations,2,1500,Service Automation Manager
+TP380,IBM SmartCloud Cntrl Desk 7.5 IT Asset Mgnt Fund,3,2400,Provisioning Manager
+TX304,IBM Tivoli Workload Scheduler 8.6 Operations and Scheduling,3,1800,Workload Scheduler
+TS612,IBM Tivoli Storage Manager 6.3 Implementation and Administration,5,3250,Storage Manager
+TSX12,IBM Tivoli Storage Manager 6.3 Implementation and Administration (AIX),5,3250,Storage Manager
+TSX22,IBM Tivoli Storage Manager 6.3 Advanced Administration for AIX,5,3750,Storage Manager
+TS103,IBM Tivoli Storage Productivity Center 4.2 Administration and Operation,5,3750,Storage Productivity Center
+TS104,IBM Tivoli Storage Productivity Center 5.1 Administration and Operation,5,3750,Storage Productivity Center
+1R047,IBM Cognos ICM Reporting Using Presenter Version 7.3 - ILO,2,1400,Cognos ICM (version 7.x)
+1R048,IBM Cognos ICM Tools and Automation Version 7.3 - ILO,1,700,Cognos ICM (version 7.x)
+WA170,IBM WebSphere Application Server V7 Administration on AIX,5,3625,Administration for distributed systems
+WA380,WebSphere Application Server V8 Administration for Windows,5,3625,Administration for distributed systems
+WA572,IBM WebSphere Application Server V7 Problem Determination,5,3625,WebSphere Application Server Administration and Deployment - Distributed Systems
+WA580,WebSphere Application Server V8 Administration for Linux,5,3625,Administration for distributed systems
+WA585,WebSphere Application Server V8.5 Administration,5,3625,Administration for distributed systems
+WA180,WebSphere Application Server V8 Administration for AIX,5,3625,Administration for distributed systems
+WA370,IBM WebSphere Application Server V7 Administration on Windows,5,3625,Administration for distributed systems
+WU582,IBM WebSphere Application Server V8 Problem Determination,4,2900,Administration for distributed systems
+WA715,IBM WebSphere Application Server V7 Performance Tuning,3,2175,Admin &amp; Deployment WAS - Distributed Sys
+WA570,IBM WebSphere Application Server V7 Administration on Linux,5,3625,Admin &amp; Deployment WAS - Distributed Sys
+WA880,WebSphere Application Server V8.5: Using Intelligent Management,3,2175,Intelligent Management
+WU805,Transition to WebSphere Application Server V8.5 for Administrators,3,2175,Administration for distributed systems
+WA680,WebSphere Application Server V8.5 Scripting and Automation,5,3625,Scripting and Automation
+WA661,IBM WebSphere Application Server V6.1 Scripting and Automation,5,3625,Administration for distributed systems
+6L224,Programming Essentials for IBM WebSphere Commerce V7 Customization (Remote),5,3875,WebSphere Commerce Development and Customization
+6T224,Programming Essentials for IBM WebSphere Commerce V7 Customization,5,3875,WebSphere Commerce Development and Customization
+6L222,IBM WebSphere Commerce V7 System Administration (Remote Classroom),5,3875,WebSphere Commerce Site Administration
+6T222,IBM WebSphere Commerce V7 System Administration,5,3875,WebSphere Commerce Site Administration
+WE401,"Accelerate, Secure and Integrate with WebSphere DataPower SOA Appliances V5",5,3875,Service-Oriented Architecture
+WPL43,Developing websites using IBM Web Content Manager 8,5,3500,IBM Websphere Portal 7.0
+WPL51,Developing Applications for IBM WebSphere Portal 7.0,5,3500,IBM Websphere Portal 7.0
+WPL54,Developing Multichannel Applications with IBM Web Experience Factory 8.0,3,2100,IBM Web Experience Factory
+WPL53,Developing Applications for IBM WebSphere Portal 8.0 using IBM RAD 8.5,5,3500,IBM WebSphere Portal V8.0
+WPL81,Installation and Administration of IBM WebSphere Portal 7.0 on Windows,5,3500,IBM Websphere Portal 7.0
+WPL83,Installation and Administration of IBM WebSphere Portal 8 on Windows,5,3500,IBM Websphere Portal 7.0
+WPL91,Installation and Administration of IBM WebSphere Portal 7.0 on Linux,5,3500,IBM Websphere Portal 7.0
+WPL93,Installation and Administration of IBM WebSphere Portal 8 on Linux,5,3500,IBM Websphere Portal 7.0
+WPL40,Developing WebSites Using IBM Web Content Manager 7.0,5,3500,IBM Lotus Web Content Management
+WPL41,Administering IBM Web Content Manager,2,1400,IBM Lotus Web Content Management
+WPL42,Advanced IBM Web Content Manager 7.0,2,1400,IBM Lotus Web Content Management
+WPL44,Administering IBM Web Content Manager 8.0,2,1400,IBM Lotus Web Content Management
+WPL45,Advanced IBM Web Content Manager 8.0 concepts,2,1400,IBM Lotus Web Content Management
+WPL82,Essential  Websphere Portal 7.0 Administration skills for Developers on Windows,3,2100,IBM Websphere Portal 7.0

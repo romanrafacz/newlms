@@ -1,4 +1,6 @@
 from flask import render_template, Blueprint
+from app import db
+from app.models import Course
 
 courses_blueprint = Blueprint(
         'courses', __name__,
@@ -7,4 +9,5 @@ courses_blueprint = Blueprint(
 
 @courses_blueprint.route('/courses')
 def courses():
-    return render_template('courses.html')
+    courses = db.session.query(Course).all()
+    return render_template('courses.html', courses=courses)
