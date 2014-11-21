@@ -1,14 +1,30 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<script>
+    <script>
 
-    $(document).ready(function() {
-        $("#studentTable").DataTable( {
+        $(document).ready(function() {
+            $("#studentTable").DataTable( {
+            });
         });
-    });
-</script>
+    </script>
 
+    <!-- Form -->
+
+    <div>
+        <form id="locationForm" action="{{url_for('students.addstudent')}}" method="POST">
+            {% for input in form if input.widget.input_type != 'hidden' %}
+                <label>{{input.label}}</label>{{input}}<br>
+            {% endfor %}
+
+            <div id="formButtons">
+                <input type="submit" id="addButton" name="addButton" value="Add">
+                <input type="button" id="cancel" name="cancel" value="cancel">
+            </div>
+
+        </form>
+
+    </div>
 
     <table id="studentTable">
         <thead>
@@ -16,10 +32,19 @@
                 <th>fname</th>
                 <th>lname</th>
                 <th>email</th>
+                <th>phone</th>
             </tr>
         </thead>
 
         <tbody>
+            {% for student in students %}
+            <tr>
+                <td>{{student.first_name}}</td>
+                <td>{{student.last_name}}</td>
+                <td>{{student.email}}</td>
+                <td>{{student.phone}}</td>
+            </tr>
+            {% endfor %}
         </tbody>
 
     </table>
